@@ -1,0 +1,24 @@
+#!/bin/sh
+#
+# PSPWizard (Mac 10.9)
+#
+###########################################################################
+
+VERSION=2
+
+# Point to Java Home
+JAVAHOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home"
+JAVA="$JAVAHOME/bin/java"
+BASEDIR=$(dirname $0)
+LIBS=$BASEDIR/lib/AbsoluteLayout.jar:$BASEDIR/lib/swing-layout-1.0.4.jar
+
+###########################################################################
+
+# start PSPWizzard
+
+"$JAVA" -classpath "$LIBS" -jar "$BASEDIR/PSPWizard.jar"
+
+# EOS
+
+
+
