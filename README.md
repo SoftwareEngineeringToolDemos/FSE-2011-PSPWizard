@@ -12,8 +12,8 @@ Here is the link to the [Original Project Page](http://www.ict.swin.edu.au/perso
 
 
 In this repository, for PSPWizard you will find:
-:white_check_mark: Source code (available)
-:white_check_mark: The original tool (available)
+:white_check_mark: [Source code (available)](https://github.com/SoftwareEngineeringToolDemos/FSE-2011-PSPWizard/tree/master/PSPWizard%20Src)
+:white_check_mark: [The original tool (available)](https://github.com/SoftwareEngineeringToolDemos/FSE-2011-PSPWizard/tree/master/PSPWizard%20Bin/bin)
 
 
 This repository was constructed by [Manav Verma](https://github.com/mverma4) under the supervision of [Dr. Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Markus Lumpe, Indika Meedeniya and Lars Grunske for their help in establishing this repository.
