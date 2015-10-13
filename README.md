@@ -4,7 +4,7 @@ This repository contains information related to the tool PSPWizard: Machine-assi
 <p>
 The tool was originally presented in this [Paper](http://dl.acm.org/citation.cfm?doid=2025113.2025193) at Foundations of Software Engineering, 2011.
 <p>
-This repository is <b><i>NOT</b></i> the original repository for this tool.<br>
+This repository <b><i>is NOT</b></i> the original repository for this tool.<br>
 Here is the link to the [Original Project Page](http://www.ict.swin.edu.au/personal/mlumpe/PSPWizard/index.html)
 <p>
 In this repository, for PSPWizard you will find:<br>
