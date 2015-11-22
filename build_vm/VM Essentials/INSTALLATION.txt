@@ -1,0 +1,33 @@
+ * 
+ *	PSPWizard
+ *
+ *The Binary & Source Code can be downloaded from:
+ *http://www.ict.swin.edu.au/personal/mlumpe/PSPWizard/download.html
+ *
+ *
+ *For MAC OS:
+ *
+ * 1. Download the Binary Distribution.
+ *	The binary distribution comprises of PSPWizard's Java jar-archives and system-specific application scripts to   
+ *	run PSPWizard as a stand-alone application.  
+ * 2. To start PSPWizard, invoke PSPWizard in the bin directory without any arguments.
+ *	PSPWizard requires the Java 7 execution environment.   
+ *
+ *
+ *For Windows:
+ *
+ * 1. Download the Binary Distribution.
+ *	The binary distribution comprises of PSPWizard's Java jar-archives and system-specific application scripts to run 
+ *	PSPWizard as a stand-alone application.  
+ * 2. To start PSPWizard, invoke PSPWizard.bat in the bin directory without any arguments.
+ *	PSPWizard requires the Java 7 execution environment. 
+ *
+ *
+ *For Linux:
+ *
+ * 1. Download the Binary Distribution.
+ *	The binary distribution comprises of PSPWizard's Java jar-archives and system-specific application scripts to    
+ *	run PSPWizard as a stand-alone application.
+ * 2. To start PSPWizard, invoke PSPWizard.jar in the bin directory without any arguments.
+ *	PSPWizard requires the Java 7 execution environment. 
+
