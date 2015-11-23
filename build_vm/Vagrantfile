@@ -3,23 +3,37 @@
 
 # All Vagrant configuration is done below. The "2" in Vagrant.configure
 # configures the configuration version 
-
 Vagrant.configure(2) do |config|
-
+  #Configures the vm box
   config.vm.box = "box-cutter/ubuntu1404-desktop"
-
+  #Configures the vm hostname
   config.vm.hostname = "Vagrant-mverma4-PSPWizard"
 
    config.vm.provider "virtualbox" do |vb|
-    # Display the VirtualBox GUI when booting the machine
+      # Display the VirtualBox GUI when booting the machine
       vb.gui = true
+      # Sets the Vm memory
       vb.memory = "1024"
+      # sets the vm name
       vb.name = "Vagrant-mverma4-PSPWizard"
     end
-  
+ 
   # Enable provisioning with a shell script. 
     config.vm.provision "shell", inline: <<-SHELL
       sudo apt-get update
-      sudo apt-get install -y openjdk-7-jdk
+      # install jdk
+      sudo apt-get install -y openjdk-7-jdk 
+      cd /home/vagrant/Desktop
+      # download from github repository
+      sudo wget https://codeload.github.com/SoftwareEngineeringToolDemos/FSE-2011-PSPWizard/zip/master
+      # creating the vm files
+       unzip master
+        mv /home/vagrant/Desktop/FSE-2011-PSPWizard-master/* /home/vagrant/Desktop
+        rm -rf master
+        rm -rf FSE-2011-PSPWizard-master
+        rm -rf README.*
+        mv /home/vagrant/Desktop/build_vm/VM_Essentials/* /home/vagrant/Desktop
+        rm -rf build_vm
+        mv "/home/vagrant/Desktop/PSPWizard Bin/bin/PSPWizard.jar" /home/vagrant/Desktop
     SHELL
 end
