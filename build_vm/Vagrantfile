@@ -5,10 +5,9 @@
 # configures the configuration version 
 Vagrant.configure(2) do |config|
   #Configures the vm box
-  config.vm.box = "box-cutter/ubuntu1404-desktop"
+  config.vm.box = "nritholtz/ubuntu-14.04.1"
   #Configures the vm hostname
   config.vm.hostname = "Vagrant-mverma4-PSPWizard"
-
    config.vm.provider "virtualbox" do |vb|
       # Display the VirtualBox GUI when booting the machine
       vb.gui = true
@@ -16,11 +15,15 @@ Vagrant.configure(2) do |config|
       vb.memory = "1024"
       # sets the vm name
       vb.name = "Vagrant-mverma4-PSPWizard"
+      #Disable USB
+      vb.customize ["modifyvm", :id, "--usb", "off"]
+      vb.customize ["modifyvm", :id, "--usbehci", "off"]
     end
- 
   # Enable provisioning with a shell script. 
     config.vm.provision "shell", inline: <<-SHELL
       sudo apt-get update
+      #Command to remove desktop Lock
+      gsettings set org.gnome.desktop.screensaver lock-enabled false
       # install jdk
       sudo apt-get install -y openjdk-7-jdk 
       cd /home/vagrant/Desktop
