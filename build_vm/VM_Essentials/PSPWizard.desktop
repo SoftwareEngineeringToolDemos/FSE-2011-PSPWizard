@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name[en_us]=PSPWizard
+Exec=gnome-terminal -e "bash -c 'sudo ./home/vagrant/Desktop/start.sh;$SHELL'"
+Terminal=true
+Type=Application
