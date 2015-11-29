@@ -1,5 +1,5 @@
 [Desktop Entry]
 Name[en_us]=PSPWizard
 Exec=gnome-terminal -e "bash -c 'java -jar /home/vagrant/Desktop/PSPWizard.jar;$SHELL'"
-Terminal=false
+Terminal=true
 Type=Application
