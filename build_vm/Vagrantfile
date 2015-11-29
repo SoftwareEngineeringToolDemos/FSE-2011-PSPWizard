@@ -9,7 +9,7 @@ Vagrant.configure(2) do |config|
   config.vm.box = "nritholtz/ubuntu-14.04.1"
   
   #Configures the vm hostname
-  config.vm.hostname = "Vagrant-mverma4-PSPWizard"
+  config.vm.hostname = "Onslow-mverma4-PSPWizard-Vagrant"
    
    config.vm.provider "virtualbox" do |vb|
      
@@ -20,7 +20,7 @@ Vagrant.configure(2) do |config|
       vb.memory = "1024"
       
       # sets the vm name
-      vb.name = "Vagrant-mverma4-PSPWizard"
+      vb.name = "Onslow-mverma4-PSPWizard-Vagrant"
       
       #Disable USB
       vb.customize ["modifyvm", :id, "--usb", "off"]
