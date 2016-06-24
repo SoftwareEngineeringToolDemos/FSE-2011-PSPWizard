@@ -7,7 +7,7 @@ The tool was originally presented in this [Paper](http://dl.acm.org/citation.cfm
 This repository <b><i>is NOT</i></b> the original repository for this tool.
 * Here is the link to the [Original Project Page](http://www.ict.swin.edu.au/personal/mlumpe/PSPWizard/index.html)<br>
 * The Binary & Source Code can be Downloaded from the [Download Page](http://www.ict.swin.edu.au/personal/mlumpe/PSPWizard/download.html)
-<p>
+
 In this repository, for PSPWizard you will find:
 * :white_check_mark: [Source code](https://github.com/SoftwareEngineeringToolDemos/FSE-2011-PSPWizard/tree/master/PSPWizard%20Src)
 PSPWizard has been developed in netbeans 8 using Java 7. The source archive contains a complete netbeans project. To build it, just import it into your current netbeans workspace.
